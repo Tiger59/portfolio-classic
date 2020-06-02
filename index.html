@@ -27,43 +27,26 @@
   <div id="preloader">
     <div id="load"></div>
   </div>
-
-
-
+  
+  <!-- Title -->
   <section id="intro" class="intro">
-    <div class="page-scroll">
-      <a href="#about">
-				<i class="fa fa-angle-down fa-5x animated"></i>
-			</a>
-    </div>
   </section>
 
   <!-- Navigation -->
   <div id="navigation">
-    <nav class="navbar navbar-custom" role="navigation">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                                                <i class="fa fa-bars"></i>
-                                                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="menu">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#intro">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                  <li><a href="#separator">Social Media Accounts</a></li>
-                <li><a href="#gallery">My photo gallery</a></li>
-
-              </ul>
-            </div>
-            <!-- /.Navbar-collapse -->
-
+    <nav class="navbar navbar-expand-lg navbar-light " role="navigation">
+      <div class="row col-xl-12">
+        <div class="col-xl-12">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+              <li class="active nav-item"><a class="nav-link" href="#intro">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+              <li class="nav-item"><a class="nav-link" href="#separator">Social Media</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gallery">Photo gallery</a></li>
+            </ul>
           </div>
+          <!-- /.Navbar-collapse -->
         </div>
       </div>
       <!-- /.container -->
@@ -75,112 +58,106 @@
   <section id="about" class="home-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-xl-12 col-lg-offset-2">
           <div class="section-heading text-center">
             <div class="wow bounceInDown" data-wow-delay="0.2s">
-              <h2>Hi! I'm Tiger.</h2>
+              <h2>Hi! I'm Taiga.</h2>
             </div>
-            <p class="wow bounceInUp" data-wow-delay="0.3s">I'm 20 years old.I was born and raised in Kobe.</p>
+            <p class="wow bounceInUp" data-wow-delay="0.3s">I'm 22 years old.I was born and raised in Kobe.</p>
           </div>
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-
-          <img src="img/img1.jpg" class="img-responsive img-rounded" alt="" />
+        <div class="col-6">
+          <img src="img/img1.jpg" class="img-fluid rounded" alt="" />
         </div>
         <div class="col-md-6">
-          <p><strong>I am a student of Konan University, studying AI as my academic major.</strong></p>
+          <p><strong>自己紹介</strong></p>
           <p>
-           I can mainly use Python, C and Java. Recently I started studying html again.<br>
-		       I have developed several software.Please see the table below.
-		      </p>
+            シナジーマーケティング株式会社でエンジニアをしています。岸本大河です。
+            趣味は<strong>猫の写真を取ること</strong>と、<strong>プログラミング</strong>、あとは<strong>技術系のイベント</strong>に参加することです。<br>
+            プログラミングは普段PythonとGo言語,Javaをよく書いています。
+            学生時代からプログラミングが好きでいろいろ作ってきました。下の表は学生時代に作成したものや参加したものです。
+          </p>
+        </div>
 
-
-            <!--table-->
-			<table class="table">
-			  <thead>
-				<tr>
-				  <th scope="col">When?</th>
-				  <th scope="col">What?</th>
-				  <th scope="col">Language</th>
-				</tr>
-			  </thead>
-			  <tbody>
+          <!--table-->
+          <div class="col-md-12 chronology">
+          <table class="table table-hover">
+            <thead>
               <tr>
-                  <th scope="row">Now</th>
-                  <td><li>messsage app</li></td>
-                  <td>python,kotlin</td>
+                <th scope="col">年</th>
+                <th scope="col">タイトル</th>
+                <th scope="col">言語</th>
+                <th scope="col">概要</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">2019</th>
+                <td><a href="https://note.com/tiger59/n/n88ce2d98216d?magazine_key=mf16f774e730e"
+                    target="_blank">アレクサスキル作成</a></td>
+                <td>Node.js</td>
+                <td>アレクサスキルのハッカソンで優勝しました。</td>
               </tr>
               <tr>
-                  <th scope="row">2019</th>
-                  <td><li><a href="http://tiger59.tk/" target="_blank">photo app</a></li></td>
-                  <td>html,js,css</td>
+                <th scope="row">2018</th>
+                <td><a href="https://aibic-spiral.enpit.jp/2018/10/13/aibic-up18/" target="_blank">需要予測AI</a></td>
+                <td>Python</td>
+                <td>スーパーにおいて各商品の需要を予測し自動で発注数を導き出すAIを作成しました</td>
               </tr>
               <tr>
-                  <th scope="row">2018</th>
-                  <td><li><a href="https://alexaskillawards.connpass.com/event/92927/" target="_blank">Alexa skill</a></li></td>
-                  <td>Node.js</td>
+                <th scope="row">2018</th>
+                <td><a href="http://www.nadasemi.ii.konan-u.ac.jp/robot_manzai/" target="_blank">漫才ロボット</a></td>
+                <td>Python</td>
+                <td>学内のプロジェクトで漫才ロボットの作成の手伝いをしました。</td>
               </tr>
-
               <tr>
-                  <th scope="row">2018</th>
-                  <td><li><a href="https://aibic-spiral.enpit.jp/" target="_blank">Supply and demand AI</a></li></td>
-                  <td>Python</td>
+                <th scope="row">2018, 2019</th>
+                <td><a href="https://icpc.baylor.edu/" target="_blank">ICPC</a></td>
+                <td>Python</td>
+                <td>プログラミングの世界大会に参加しました。</td>
               </tr>
-			  	<tr>
-				  <th scope="row">2018</th>
-				  <td><li><a href="http://www.nadasemi.ii.konan-u.ac.jp/robot_manzai/" target="_blank">Manzai_Robot</a></li></td>
-				  <td>Python</td>
-				</tr>
-				<tr>
-				  <th scope="row">2018</th>
-				  <td><li><a href="unity_3D/unity_3DS.html" target="_blank">Driving_simulator</a></li></td>
-				  <td>C#</td>
-				</tr>
-				<tr>
-				  <th scope="row">2018</th>
-				  <td><li><a href="https://icpc.baylor.edu/" target="_blank">ICPC</a></li></td>
-				  <td>Python</td>
-				</tr>
-				<tr>
-				  <th scope="row">2017</th>
-				  <td><li><a href="https://github.com/konan-pbl-2017/teamE" target="_blank">Game</a></li></td>
-				  <td>Java</td>
-				</tr>
-				<tr>
-				  <th scope="row">2017</th>
-				  <td><li>WebApp</li></td>
-				  <td>Python@Flask</td>
-				</tr>
-				<tr>
-				  <th scope="row">2016</th>
-				  <td><li><a href="http://www.konan-u.ac.jp/hp/seki/showcase/2016/3/index.html" target="_blank">Game</a></li></td>
-				  <td>processing</td>
-				</tr>
-
-			  </tbody>
-			</table>
+              <tr>
+                <th scope="row">2017</th>
+                <td><a href="https://github.com/konan-pbl-2017/teamE" target="_blank">ゲームエンジン</a></td>
+                <td>Java</td>
+                <td>研究室で作成しているゲームエンジンを使いゲームを作成しました。</td>
+              </tr>
+              <tr>
+                <th scope="row">2017</th>
+                <td>Webアプリ</td>
+                <td>Python@Flask</td>
+                <td>初めてWebアプリを作成し実際に学内で使用していただきました。</td>
+              </tr>
+              <tr>
+                <th scope="row">2016</th>
+                <td><a href="game.html" target="_blank">ゲーム</a></td>
+                <td>Processing</td>
+                <td>初めてプログラミングを学習し学内でゲームを作成し優秀作品に選ばれました。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         </div>
       </div>
     </div>
   </section>
   <!-- /Section: about -->
 
-  <!-- Section: separator -->
+  <!-- Section: Social media -->
   <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-  <div class="container">
+    <div class="container">
       <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-              <div class="section-heading text-center">
-                  <h2 class="wow bounceInDown" data-wow-delay="0.3s">Social Media Accounts</h2>
-              </div>
+        <div class="col-xl-12 col-lg-offset-2">
+          <div class="section-heading text-center text-white">
+            <h2 class="wow bounceInDown " data-wow-delay="0.3s">Social media</h2>
           </div>
+        </div>
       </div>
-  </div>
+    </div>
 
 
     <div class="container">
@@ -188,60 +165,60 @@
         <div class="col-xs-6 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
-	      <a href="http://www.konan-u.ac.jp/faculty/ii/" target="_blank">
-		<i class="fa fa-graduation-cap fa-5x"></i>
-	      </a>
-	    </div>
-            <span class="color-white">I'm Konan univ student.</span>
+              <a href="https://www.synergy-marketing.co.jp/" target="_blank">
+                <i class="fa fa-building fa-5x"></i>
+              </a>
+            </div>
+            <span class="color-white">synergy-marketing</span>
           </div>
         </div>
         <div class="col-xs-6 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
-	      <a href="http://twitter.com/koneko59" target="_blank">
-              <i class="fa fa-twitter fa-5x"></i>
-	      </a>
+              <a href="http://twitter.com/koneko59" target="_blank">
+                <i class="fa fa-twitter fa-5x"></i>
+              </a>
             </div>
-            <span class="color-white">My twitter ID<br>@koneko59 </span>
+            <span class="color-white">Twitter<br>@koneko59 </span>
           </div>
         </div>
         <div class="col-xs-6 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
-	      <a href="https://github.com/Tiger59" target="_blank">
-		<i class="fa fa-github fa-5x"></i>
-	      </a>
+              <a href="https://github.com/Tiger59" target="_blank">
+                <i class="fa fa-github fa-5x"></i>
+              </a>
             </div>
-            <span class="color-white">My GitHub</span>
+            <span class="color-white">GitHub</span>
           </div>
         </div>
         <div class="col-xs-6 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
-                <a href="https://www.facebook.com/taiga.kishimoto.14" target="_blank">
-              <i class="fa fa-facebook fa-5x"></i>
-                </a>
+              <a href="https://www.facebook.com/taiga.kishimoto.14" target="_blank">
+                <i class="fa fa-facebook fa-5x"></i>
+              </a>
             </div>
-            <span class="color-white">My facebook</span>
+            <span class="color-white">Facebook</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- /Section: separator -->
+  <!-- /Section: Social media -->
 
 
-  <!-- Section: gallery -->
+  <!-- Section: Photo gallery -->
   <section id="gallery" class="home-section text-center bg-gray">
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-xl-12 col-lg-offset-2">
           <div class="wow bounceInDown" data-wow-delay="0.4s">
             <div class="section-heading">
-              <h2>My photo gallery</h2>
+              <h2>Photo gallery</h2>
             </div>
-            <p><strong>I collected cute pictures of my cat. Name is Chall.</strong></p>
+            <p><strong>かわいいうちの子の写真です。</strong></p>
           </div>
         </div>
       </div>
@@ -252,32 +229,45 @@
         <div class="col-sm-12 col-md-12 col-lg-12">
           <div class="wow bounceInUp" data-wow-delay="0.4s">
             <div id="owl-works" class="owl-carousel">
-              <div class="item"><a href="img/gallery/1.jpg" title="Orca" data-lightbox-gallery="gallery1"><img src="img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
-              <div class="item"><a href="img/gallery/2.jpg" title="tea and cat" data-lightbox-gallery="gallery1"><img src="img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/3.jpg" title="sleep" data-lightbox-gallery="gallery1"><img src="img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/4.jpg" title="Beh !" data-lightbox-gallery="gallery1"><img src="img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/5.jpg" title="me is cat" data-lightbox-gallery="gallery1"><img src="img/gallery/5.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/6.jpg" title="sit down" data-lightbox-gallery="gallery1"><img src="img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/7.jpg" title="cute pose" data-lightbox-gallery="gallery1"><img src="img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/8.jpg" title="cute pose 2" data-lightbox-gallery="gallery1"><img src="img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/9.jpg" title="kitten" data-lightbox-gallery="gallery1"><img src="img/gallery/9.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/10.jpg" title="Studying together" data-lightbox-gallery="gallery1"><img src="img/gallery/10.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/11.jpg" title="A whale" data-lightbox-gallery="gallery1"><img src="img/gallery/11.jpg" class="img-responsive " alt="img"></a></div>
-              <div class="item"><a href="img/gallery/12.jpg" title="Clever pose" data-lightbox-gallery="gallery1"><img src="img/gallery/12.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/1.jpg" title="Orca" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
+              <div class="item"><a href="img/gallery/2.jpg" title="tea and cat" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/3.jpg" title="sleep" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/4.jpg" title="Beh !" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/5.jpg" title="me is cat" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/5.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/6.jpg" title="sit down" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/7.jpg" title="cute pose" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/8.jpg" title="cute pose 2" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/9.jpg" title="kitten" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/9.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/10.jpg" title="Studying together"
+                  data-lightbox-gallery="gallery1"><img src="img/gallery/10.jpg" class="img-responsive " alt="img"></a>
+              </div>
+              <div class="item"><a href="img/gallery/11.jpg" title="A whale" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/11.jpg" class="img-responsive " alt="img"></a></div>
+              <div class="item"><a href="img/gallery/12.jpg" title="Clever pose" data-lightbox-gallery="gallery1"><img
+                    src="img/gallery/12.jpg" class="img-responsive " alt="img"></a></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- /Section: services -->
+  <!-- /Section: Photo gallery -->
 
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-lg-12">
           <div class="credits">
-            (c) 2018 Taiga Kishimoto
+            (c) 2020 Taiga Kishimoto
           </div>
         </div>
       </div>
