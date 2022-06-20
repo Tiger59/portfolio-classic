@@ -3,15 +3,21 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <!--<meta name="description" content="">-->
   <meta name="author" content="Tiger">
 
-  <title>Tiger Home Page</title>
+  <title>Tiger Portfolio</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Seaweed+Script&display=swap" rel="stylesheet">
   <link href="css/nivo-lightbox.css" rel="stylesheet" />
   <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
   <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
@@ -19,7 +25,6 @@
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -27,74 +32,252 @@
   <div id="preloader">
     <div id="load"></div>
   </div>
-  
+
   <!-- Title -->
   <section id="intro" class="intro">
+    <div class="container">
+      <div class="col-12 col-md-8 mx-auto">
+        <div class="section-heading text-center">
+          <p class="h1 logo-title"><span>Tiger's </span><span>portfolio</span></p>
+          <p class="logo-desc">Backend Engineer</p>
+        </div>
+      </div>
+
+    </div>
   </section>
 
   <!-- Navigation -->
   <div id="navigation">
     <nav class="navbar navbar-expand-lg navbar-light " role="navigation">
-      <div class="row col-xl-12">
-        <div class="col-xl-12">
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="nav navbar-nav">
-              <li class="active nav-item"><a class="nav-link" href="#intro">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-              <li class="nav-item"><a class="nav-link" href="#separator">Social Media</a></li>
-              <li class="nav-item"><a class="nav-link" href="#gallery">Photo gallery</a></li>
-            </ul>
-          </div>
-          <!-- /.Navbar-collapse -->
+      <div class="row">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav">
+            <li class="active nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#carrier">Carrier</a></li>
+            <!--li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li-->
+            <li class="nav-item"><a class="nav-link" href="#qualifications">Qualifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Photo gallery</a></li>
+          </ul>
         </div>
+        <!-- /.Navbar-collapse -->
       </div>
       <!-- /.container -->
     </nav>
   </div>
   <!-- /Navigation -->
 
+  <section id="home" class="home-section">
+    <div class="container">
+      <div class="section-heading text-center">
+        <div class="wow bounceInDown" data-wow-delay="0.2s">
+          <h2>Hi! I'm Tiger.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-8 mx-auto">
+          <div class="row">
+            <div class="col-4">
+              <img src="img/profile_img.jpg" class="rounded  offset-m profile-img" width=100%>
+            </div>
+            <div class="col-8">
+              <p class="wow bounceInUp" data-wow-delay="0.3s">
+                <span>はじめまして。<span id="age"></span> 歳、システムエンジニアの岸本 大河です。</span>
+                <span>このページでは、これまでに手がけた制作物、身につけたスキルなどをまとめています。</span>
+                <span>私のことを簡単に知っていただければと思い作成したので、どうぞごゆるりとご覧ください。</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
   <!-- Section: about -->
   <section id="about" class="home-section">
+    <div class="container">
+      <div class="section-heading text-center ">
+        <h2 class="wow bounceInDown " data-wow-delay="0.3s">About me</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-6">
+          <img src="img/img1.jpg" class="img-fluid rounded " style="padding-bottom:30px" alt="" />
+        </div>
+        <div class="col-md-6">
+          <p>
+            神戸出身のエンジニア。大学で知能情報学を学んだのち現在は、シナジーマーケティング株式会社でエンジニアをしています。
+            主に集客、顧客情報の統合、メッセージング、分析まで、CRMのあらゆる活動を支えるシステム "Synergy!" のバックエンドを開発しています。
+          </p>
+          <p>
+            趣味は<strong>プログラミング</strong>や<strong>技術系のイベント</strong>に参加することです。<br>
+            プログラミングは普段KotlinとJava,Pythonなどをよく書いています。技術面では、最近はK8sやAWSなどを勉強しています。
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- /Section: about -->
+
+
+
+
+
+
+  <!-- Section: carrier -->
+  <section id="carrier" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-offset-2">
+          <div class="section-heading text-center text-white">
+            <h2 class="wow bounceInDown " data-wow-delay="0.3s">Carrier</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-md-12 chronology">
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <div class="col-3 col-sm-3 col-md-3">
+                <th scope="row">2020~</th>
+              </div>
+              <td>
+                <a href="https://www.synergy-marketing.co.jp" target="_blank">シナジーマーケティング株式会社</a>
+              </td>
+              <td>CRM プラットフォーム Synergy! のバックエンドエンジニア</td>
+            </tr>
+            <tr>
+              <th scope="row">2019~2020</th>
+              <td>
+                <a href="https://neton.co.jp" target="_blank">
+                  neton株式会社 長期インターン
+                </a>
+              </td>
+              <td>採用Webマーケティングバックエンドエンジニア</td>
+            </tr>
+            <tr>
+              <th scope="row">2016~2020</th>
+              <td>
+                <a href="https://www.konan-u.ac.jp/faculty/ii/ii/" target="_blank">
+                  甲南大知能学情報学部
+                </a>
+              </td>
+              <td>
+                数学、システム、制御工学、情報工学など幅広い学問を学びました。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </section>
+  <!-- Section: carrier -->
+
+  <!-- Section: Skills -->
+  <!--section id="skills" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-offset-2">
+          <div class="section-heading text-center text-white">
+            <h2 class="wow bounceInDown " data-wow-delay="0.3s">Skills</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <h3><i class="fa-solid fa-desktop"></i>プログラミング言語</h3>
+      </div>
+      <div class="row">
+        <div class="card col-12 col-md-6">
+          <h3><i class="fa-solid fa-desktop"></i>バックエンド</h3>
+        </div>
+        <div class="card col-12 col-md-6">
+          <h3><i class="fa-solid fa-desktop"></i>フロントエンド</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-12 col-md-6">
+          <h3><i class="fa-solid fa-database"></i>DB</h3>
+        </div>
+        <div class="card col-12 col-md-6">
+          <h3>
+            <i class="fa-solid fa-server"></i>
+            インフラ・サーバー
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section-->
+  <!-- Section: Skills -->
+
+  <!-- Section: qualifications -->
+  <section id="qualifications" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
         <div class="col-xl-12 col-lg-offset-2">
           <div class="section-heading text-center">
-            <div class="wow bounceInDown" data-wow-delay="0.2s">
-              <h2>Hi! I'm Taiga.</h2>
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Qualifications</h2>
+              </div>
+              <p><strong>これまでに取得した資格です。</strong></p>
             </div>
-            <p class="wow bounceInUp" data-wow-delay="0.3s">I'm 22 years old.I was born and raised in Kobe.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-md-12 chronology">
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <th scope="row">2020</th>
+              <td>ITパスポート</td>
+            </tr>
+            <tr>
+              <th scope="row">2019</th>
+              <td>
+                Python3 エンジニア認定基礎試験
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </section>
+  <!-- Section: license -->
+
+
+
+  <!-- Section: works -->
+  <section id="works" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-offset-2">
+          <div class="section-heading text-center text-white">
+            <h2 class="wow bounceInDown " data-wow-delay="0.3s">Works</h2>
           </div>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <img src="img/img1.jpg" class="img-fluid rounded" alt="" />
-        </div>
-        <div class="col-md-6">
-          <p><strong>自己紹介</strong></p>
-          <p>
-            シナジーマーケティング株式会社でエンジニアをしています。岸本大河です。
-            趣味は<strong>猫の写真を取ること</strong>と、<strong>プログラミング</strong>、あとは<strong>技術系のイベント</strong>に参加することです。<br>
-            プログラミングは普段PythonとGo言語,Javaをよく書いています。
-            学生時代からプログラミングが好きでいろいろ作ってきました。下の表は学生時代に作成したものや参加したものです。
-          </p>
-        </div>
-
-          <!--table-->
-          <div class="col-md-12 chronology">
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">年</th>
-                <th scope="col">タイトル</th>
-                <th scope="col">言語</th>
-                <th scope="col">概要</th>
-              </tr>
-            </thead>
+        <!--table-->
+        <div class="col-md-12 chronology">
+          <table class="table table-hover ">
             <tbody>
+              <tr>
+                <th scope="row">2019</th>
+                <td><a href="https://hacku.yahoo.co.jp/hacku2019osaka/" target="_blank">Hack U 2019 OSAKA</a></td>
+                <td>Unity</td>
+                <td>YahooのハッカソンでAR,音声認識を用いたスマホアプリを作成しました。</td>
+              </tr>
               <tr>
                 <th scope="row">2019</th>
                 <td><a href="https://note.com/tiger59/n/n88ce2d98216d?magazine_key=mf16f774e730e"
@@ -106,7 +289,7 @@
                 <th scope="row">2018</th>
                 <td><a href="https://aibic-spiral.enpit.jp/2018/10/13/aibic-up18/" target="_blank">需要予測AI</a></td>
                 <td>Python</td>
-                <td>スーパーにおいて各商品の需要を予測し自動で発注数を導き出すAIを作成しました</td>
+                <td>スーパーにおいて各商品の需要を予測し自動で発注数を導き出すAIを作成しました。</td>
               </tr>
               <tr>
                 <th scope="row">2018</th>
@@ -140,20 +323,24 @@
               </tr>
             </tbody>
           </table>
-        </div>
+          <!--table-->
         </div>
       </div>
     </div>
   </section>
-  <!-- /Section: about -->
+  <!-- Section: license -->
 
-  <!-- Section: Social media -->
-  <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+
+
+
+
+  <!-- Section: contact -->
+  <section id="contact" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
         <div class="col-xl-12 col-lg-offset-2">
           <div class="section-heading text-center text-white">
-            <h2 class="wow bounceInDown " data-wow-delay="0.3s">Social media</h2>
+            <h2 class="wow bounceInDown " data-wow-delay="0.3s">Contact</h2>
           </div>
         </div>
       </div>
@@ -161,45 +348,45 @@
 
 
     <div class="container">
-      <div class="row">
-        <div class="col-xs-6 col-sm-3 col-md-3">
-          <div class="align-center txt-shadow">
-            <div class="icon">
-              <a href="https://www.synergy-marketing.co.jp/" target="_blank">
-                <i class="fa fa-building fa-5x"></i>
-              </a>
-            </div>
-            <span class="color-white">synergy-marketing</span>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-3 col-md-3">
+      <div class="row align-center ">
+        <div class="col-3 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
               <a href="http://twitter.com/koneko59" target="_blank">
-                <i class="fa fa-twitter fa-5x"></i>
+                <i class="fa fa-brands fa-twitter fa-5x"></i>
               </a>
             </div>
             <span class="color-white">Twitter<br>@koneko59 </span>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="col-3 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
               <a href="https://github.com/Tiger59" target="_blank">
-                <i class="fa fa-github fa-5x"></i>
+                <i class="fa fa-brands fa-github fa-5x"></i>
               </a>
             </div>
             <span class="color-white">GitHub</span>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="col-3 col-sm-3 col-md-3">
           <div class="align-center txt-shadow">
             <div class="icon">
               <a href="https://www.facebook.com/taiga.kishimoto.14" target="_blank">
-                <i class="fa fa-facebook fa-5x"></i>
+                <i class="fa fa-brands fa-facebook fa-5x"></i>
               </a>
             </div>
             <span class="color-white">Facebook</span>
+          </div>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3">
+          <div class="align-center txt-shadow">
+            <div class="icon">
+              <a href="https://t.me/Tiger_rip" target="_blank">
+                <i class="fa fa-brands fa-telegram fa-5x"></i>
+              </a>
+            </div>
+            <span class="color-white">Telegram</span>
           </div>
         </div>
       </div>
@@ -218,7 +405,7 @@
             <div class="section-heading">
               <h2>Photo gallery</h2>
             </div>
-            <p><strong>かわいいうちの子の写真です。</strong></p>
+            <p><strong>最後に趣味で撮っている写真です。</strong></p>
           </div>
         </div>
       </div>
@@ -267,7 +454,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-12">
           <div class="credits">
-            (c) 2020 Taiga Kishimoto
+            (c) Taiga Kishimoto
           </div>
         </div>
       </div>
@@ -286,8 +473,13 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+  <script>
+    document.getElementById("age").innerHTML = dayjs().diff(dayjs('1998-03-17'), 'year');
+  </script>
 </body>
 
 </html>
